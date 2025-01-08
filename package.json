@@ -7,10 +7,6 @@
     "*.{js,vue}": [
       "eslint --fix",
       "git add"
-    ],
-    "*.{less,vue}": [
-      "stylelint --fix",
-      "git add"
     ]
   },
   "scripts": {
