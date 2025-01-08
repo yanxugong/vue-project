@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "lint-staged": {
-    "*.{js,vue}": [
-      "eslint --fix",
+    "*.{less,vue}": [
+      "stylelint --fix",
       "git add"
     ]
   },
